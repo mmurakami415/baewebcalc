@@ -1,0 +1,72 @@
+body {
+    background-image: url("https://girlydrop.com/wp-content/uploads/post/p5554.jpg");
+    background-size: cover;               
+    background-attachment: fixed;         
+    background-position: center center;
+}
+
+
+input {
+    width: 292px;
+    height: 45px;
+    font-size: 30px;
+    border-style: none;
+    background-color:rgba(51,112,121,0);
+    text-align: right;
+    box-sizing: border-box;
+}
+.container {
+    width: 300px;
+    height: 258px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.calcinner {
+    width: 300px;
+    height: 310px;
+    margin: 0 auto;
+}
+
+button {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    background-color: #9ec34b;
+    font-size: 16px;
+    color: #84a01f;
+    text-decoration: none;
+    font-weight: bold;
+    /*padding: 8px 24px;*/
+    border-radius: 4px;
+    border-bottom: 4px solid #84a01f;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.4);　/* ボタンの色が明るめの場合は0.7の数字を大きく、暗めの場合は少なくするとリアルに */
+}
+  
+  button:active {
+      transform: translateY(4px);
+      border-bottom:none;
+    }
+
+.number, .root, .exponentiation, .division, .multiplication, .equal {
+    padding: 8px 27px;
+    }
+ 
+.CLR{
+    padding: 8px 15px;
+}
+
+.dot {
+    padding: 8px 29.25px;
+}
+
+.minus {
+    padding: 8px 29px;
+}
+
+.plus {
+    padding: 31px 27px ;
+    margin-bottom: 30px;
+}
