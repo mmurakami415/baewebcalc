@@ -1,0 +1,40 @@
+!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サンプル</title>
+    <link rel="stylesheet" href="button.css">
+    <script src="prac.js"></script>
+</head>
+<body>
+<h1>電卓</h1>
+<div class="calcouter">
+<div class="calcinner">
+    <input /><br>
+    <div class='container'>
+    <div class="button-wrap"><button class="exponentiation" onclick="append( '**' )">^</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '7' )">7</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '4' )">4</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '1' )">1</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '0' )">0</button></div><br>
+    <div class="button-wrap"><button class="root" onclick="append( '**0.5' )">√</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '8' )">8</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '5' )">5</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '2' )">2</button></div>
+    <div class="button-wrap"><button class="dot" onclick="append( '.' )">.</button></div><br>
+    <div class="button-wrap"><button class="CLR" onclick="update( '' )">CLR</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '9' )">9</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '6' )">6</button></div>
+    <div class="button-wrap"><button class="number" onclick="append( '3' )">3</button></div>
+    <div class="button-wrap"><button class="equal" onclick="calc()">=</button></div><br>
+    <div class="button-wrap"><button class="division" onclick="append( '/' )">÷</button></div>
+    <div class="button-wrap"><button class="multiplication" onclick="append( '*' )">×</button></div>
+    <div class="button-wrap"><button class="minus" onclick="append( '-' )">-</button></div>
+    <div class="button-wrap"><button class="plus" onclick="append( '+' )">+</button></div>
+    </div>
+</div>
+</div>
+</body>
+</html>
